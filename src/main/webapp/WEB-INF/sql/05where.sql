@@ -19,3 +19,11 @@ WHERE BirthDate <= '1958-09-19';
 SELECT * FROM Employees
 WHERE BirthDate >= '1958-09-19';
 
+SELECT ProductName 
+FROM Products
+WHERE ProductId = 5;
+
+SELECT CustomerName
+FROM Customers;
+
+SELECT FirstName FROM Employees;
