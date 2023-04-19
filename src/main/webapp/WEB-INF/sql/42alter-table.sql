@@ -23,3 +23,4 @@ CREATE TABLE MyTable29 (
 );
 ALTER TABLE MyTable29
 ADD PRIMARY KEY (col1, col2);
+DESC MyTable29;
