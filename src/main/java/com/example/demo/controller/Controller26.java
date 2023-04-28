@@ -12,7 +12,7 @@ import com.example.demo.mapper.*;
 
 @Controller
 @RequestMapping("sub26")
-public class Controlloer26 {
+public class Controller26 {
 
 	@Autowired
 	private Mapper06 mapper;
