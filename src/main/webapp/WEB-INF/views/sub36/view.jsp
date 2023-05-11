@@ -11,43 +11,51 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-	<h5>ajax 연습 1</h5>
+	<h5>json -> javaBean</h5>
+	<button id="btn1">json1 전송</button>
+	<br />
+	<button id="btn2">json2 전송</button>
+	<br />
+	<button id="btn3">json3 전송</button>
+	<br />
+	<button id="btn4">json4 전송</button>
+	<br />
+	<button id="btn5">json5 전송</button>
+	<br />
+	<button id="btn6">json6 전송</button>
+	<br />
+	<button id="btn7">객체가 아이템인 리스트 전송</button>
 	
+	<hr />
+	
+	<input type="text" id="inputName" placeholder="이름"/> <br />
+	<input type="text" id="inputAge" placeholder="나이"/> <br />
+	<button id="btn8">전송</button>
+	
+	<hr />
+	
+	<input type="text" id="inputName2" placeholder="이름"/> <br />
+	<input type="text" id="inputEmail2" placeholder="메일"/> <br />
+	<input type="text" id="inputScore2" placeholder="점수"/> <br />
+	<input type="text" id="inputMarried2" placeholder="결혼"/> <br />
+	<button id="btn9">전송</button>
+	
+	<hr />
 	<div>
-		<button id="button1">ajax요청</button>
+		<input type="checkbox" id="married" value="marry"/>
+		<label for="married">결혼여부</label>
 	</div>
-	
 	<div>
-		<button id="button2">get 요청 /link2로</button>
+		<input type="checkbox" id="scored" value="score"/>
+		<label for="scored">득점여부</label>
 	</div>
-	
 	<div>
-		<button id="button3">get요청 쿼리스트링과</button>
+		<input type="checkbox" id="living" value="live"/>
+		<label for="living">생사여부</label>
 	</div>
-	
-	<div>
-		<button id="button4">get요청 쿼리스트링과</button>
-	</div>
-	
-	<div>
-		<button id="button5">get요청 여러 파라미터와</button>
-	</div>
-	
-	<div>
-		<button id="button6">get요청 여러 파라미터와</button>
-	</div>
-	
-	<div>
-		<button id="button7">get요청 여러 파라미터 자바빈으로 받음</button>
-	</div>
-	
-	<div>
-		<button id="button8">get요청 여러 파라미터 자바빈으로 받음</button>
-	</div>
-	
+	<button id="btn10">전송</button>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-	
-	<script src="/js/sub34/ajax1.js"></script>
+	<script src="/js/sub36/ajax.js"></script>
 </body>
 </html>
