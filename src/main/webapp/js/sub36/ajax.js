@@ -131,7 +131,8 @@ $("#btn9").click(function() {
 	const name = $("#inputName2").val();
 	const email = $("#inputEmail2").val();
 	const score = $("#inputScore2").val();
-	const married = $("#inputMarried2").val();
+	// const married = ducument.querySelector("#inputMarried2").checked;
+	const married = $("#inputMarried2").is(":checked");
 		
 	const data = {
 		name: name,
@@ -144,30 +145,5 @@ $("#btn9").click(function() {
 		method: "post",
 		contentType: "application/json",
 		data: JSON.stringify(data)
-	})
-})
-
-////////////////////////////////////
-$("#btn10").click(function() {
-	$("#married").click(function() {
-		const married = $("#married").val();
-	})
-	$("#scored").click(function() {
-		const scored = $("#scored").val();
-	})
-	$("#living").click(function() {
-		const living = $("#living").val();
-	})
-	
-	const data = {
-		married : married,
-		scored : scored,
-		living : living
-	}
-	
-	$.ajax("/sub36/link8", {
-		method : "post",
-		contentType : "application/json",
-		data : JSON.stringify(data)
 	})
 })

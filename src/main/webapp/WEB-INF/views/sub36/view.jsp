@@ -34,26 +34,18 @@
 	
 	<hr />
 	
-	<input type="text" id="inputName2" placeholder="이름"/> <br />
-	<input type="text" id="inputEmail2" placeholder="메일"/> <br />
-	<input type="text" id="inputScore2" placeholder="점수"/> <br />
-	<input type="text" id="inputMarried2" placeholder="결혼"/> <br />
+	<input type="text" id="inputName2" placeholder="이름"/> 
+	<br />
+	<input type="text" id="inputEmail2" placeholder="메일"/> 
+	<br />
+	<input type="text" id="inputScore2" placeholder="점수"/> 
+	<br />
+	결혼여부
+	<input type="checkbox" id="inputMarried2" /> <br />
 	<button id="btn9">전송</button>
 	
 	<hr />
-	<div>
-		<input type="checkbox" id="married" value="marry"/>
-		<label for="married">결혼여부</label>
-	</div>
-	<div>
-		<input type="checkbox" id="scored" value="score"/>
-		<label for="scored">득점여부</label>
-	</div>
-	<div>
-		<input type="checkbox" id="living" value="live"/>
-		<label for="living">생사여부</label>
-	</div>
-	<button id="btn10">전송</button>
+	
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<script src="/js/sub36/ajax.js"></script>
