@@ -13,3 +13,8 @@ SELECT
 			WHERE b.id = 8237;
 SELECT * FROM Member;
 
+SELECT * FROM Member;
+UPDATE Member
+SET nickName = "23"
+WHERE id = "1";
+
